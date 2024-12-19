@@ -10,6 +10,10 @@ export default function Cart() {
     const userProgressCtx = useContext(UserProgressContext)
 
     const totPrice = cartCtx.items.reduce((total, item) => total + item.quantity * item.price, 0)
+
+    function handleCloseCart(){
+        userProgressCtx.hideCart()
+    }
     return (
         <Modal className="cart" open={userProgressCtx.progress === 'cart'}>
             <h2>Your Cart</h2>
@@ -20,8 +24,8 @@ export default function Cart() {
             </ul>
             <p className="cart-total">{currencyFormatter.format(totPrice)}</p>
             <p className="modal-actions">
-                <Button textOnly>Close</Button>
-                <Button >Checkout</Button>
+                <Button textOnly onClick={handleCloseCart}>Close</Button>
+                <Button onClick={handleCloseCart}>Checkout</Button>
             </p>
         </Modal>
     )
