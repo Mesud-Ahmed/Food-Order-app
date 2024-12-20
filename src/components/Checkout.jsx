@@ -5,6 +5,7 @@ import { useContext } from "react"
 import Input from "./Input"
 import Button from "./UI/Button"
 import UserProgressContext from "../store/UserProgressContext"
+
 export default function Checkout() {
     const cartCtx = useContext(CartContext)
     const totPrice = cartCtx.items.reduce((total, item) => total + item.quantity * item.price, 0)
