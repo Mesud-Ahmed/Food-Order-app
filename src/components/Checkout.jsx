@@ -10,12 +10,21 @@ export default function Checkout() {
     const totPrice = cartCtx.items.reduce((total, item) => total + item.quantity * item.price, 0)
     const userProgressCtx = useContext(UserProgressContext)
 
-    function handleClose(){
+    function handleClose() {
         userProgressCtx.hideCheckout()
     }
+    function handleSubmit(e) {
+        e.preventDefault()
+
+        const fd = new FormData(e.target)
+        const customerData = Object.fromEntries(fd.entries())
+        
+
+    }
+
     return (
         <Modal open={userProgressCtx.progress === 'checkout'} onClose={handleClose}>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <h2>Checkout</h2>
                 <p>Total Amount: {currencyFormatter.format(totPrice)}</p>
 
@@ -24,7 +33,7 @@ export default function Checkout() {
                 <Input label='Street Adress' type='text' id='street' />
                 <div className="control-row">
                     <Input label='Postal Code' type='text' id='postal-code' />
-                    <Input label='City' type='text' id='city'/>
+                    <Input label='City' type='text' id='city' />
                 </div>
                 <p className="modal-actions">
                     <Button type='button' textOnly onClick={handleClose}>Close</Button>
