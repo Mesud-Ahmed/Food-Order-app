@@ -5,7 +5,8 @@ This project is a **food ordering website** built with React as a practice code-
 
 ## Live Demo
 
-[Click here to watch the project demo](https://github.com/Mesud-Ahmed/Food-Order-app/blob/main/src/assets/preview-file)
+![Project Demo](https://github.com/Mesud-Ahmed/Food-Order-app/blob/main/src/assets/output.gif)
+
 
 
 
