@@ -16,6 +16,8 @@ export default function Header() {
         userProgressCtx.showCart()
     }
     return (
+        <>
+       
         <header id="main-header">
             <div id="title">
                 <img src={logoImg} alt="logo image" />
@@ -24,6 +26,15 @@ export default function Header() {
             <nav>
                 <Button textOnly onClick={handleShowCart}>Cart({totalCartItems})</Button>
             </nav>
+            
         </header>
+        <main>
+            <p>
+                Delicious meals, quick service, and an experience to remember. 
+                Browse our menu, customize your order, and enjoy fresh food delivered straight to your door!
+            </p>
+        </main>
+         
+        </>
     )
 }
