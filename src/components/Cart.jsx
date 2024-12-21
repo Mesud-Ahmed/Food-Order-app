@@ -15,6 +15,7 @@ export default function Cart() {
         userProgressCtx.hideCart()
     }
     function handleGoToCheckout() {
+        
         userProgressCtx.showCheckout()
     }
     return (

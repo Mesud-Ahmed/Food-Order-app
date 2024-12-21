@@ -262,7 +262,7 @@ main p {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   background: linear-gradient(90deg, #ff7eb3, #ff758c, #ffab8c);
   -webkit-background-clip: text;
