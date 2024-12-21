@@ -3,6 +3,11 @@
 
 This project is a **food ordering website** built with React as a practice code-along exercise . The application demonstrates fundamental React concepts, including state management with the **Context API**, form handling, and integration with a backend to store order data.
 
+## Live Demo
+
+Check out the live preview of the app here: [Food Order App](https://food-order-app-psi-three.vercel.app)
+
+
 ## Features
 
 ### Core Features
@@ -18,19 +23,6 @@ This project is a **food ordering website** built with React as a practice code-
 - **Backend Integration**: Sends checkout data (including user info and cart contents) to the backend, which stores the order details.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
 - **Reusable Components**: Modular design with reusable UI components like buttons and cards.
-
-
-
-## Technologies Used
-
-- **React**: Frontend framework for building UI.
-- **React Context API**: State management for meals and cart data.
-- **useReducer**: A React hook used to handle complex state logic.
-- **CSS Modules**: Scoped styling for components.
-- **JavaScript ES6**: Modern JavaScript features and syntax.
-- **HTML5**: Semantic markup.
-- **Backend**: A simple backend to store the checkout data .
-
 
 
 ## Installation
@@ -65,5 +57,3 @@ Follow these steps to get the project up and running:
 
 - **Instructor**: Maximilian Schwarzmüller
 - **Course**: React - The Complete Guide (incl Hooks, React Router, Redux)
-```
-
