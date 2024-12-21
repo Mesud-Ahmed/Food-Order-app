@@ -5,7 +5,8 @@ This project is a **food ordering website** built with React as a practice code-
 
 ## Live Demo
 
-Check out the live preview of the app here: [Food Order App](https://food-order-app-psi-three.vercel.app)
+[Click here to watch the project demo](https://github.com/Mesud-Ahmed/Food-Order-app/blob/main/src/assets/preview-file)
+
 
 
 ## Features
@@ -25,33 +26,6 @@ Check out the live preview of the app here: [Food Order App](https://food-order-
 - **Reusable Components**: Modular design with reusable UI components like buttons and cards.
 
 
-## Installation
-
-Follow these steps to get the project up and running:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Mesud-Ahmed/Food-Order-app.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd Food-Order-app
-   ```
-
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-   ```bash
-   npm start
-   ```
-
-   The app will run on [http://localhost:3000](http://localhost:3000).
-
----
 
 ## Credits
 
