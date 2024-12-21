@@ -3,7 +3,7 @@ import MealItem from "./MealItem"
 import ErrorPage from "./ErrorPage"
 const requestConfig = {}
 export default function Meals() {
-    const { data: loadedMeals, isLoading, error } = useHttp('http://localhost:3000/mealsrrfsdfs', requestConfig, [])
+    const { data: loadedMeals, isLoading, error } = useHttp('http://localhost:3000/meals', requestConfig, [])
     if (isLoading) {
         return <p className="center">Fetching meals...</p>
     }
